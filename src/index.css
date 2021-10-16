@@ -1,0 +1,52 @@
+body{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body, input, select, textarea{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-rows: 3rem 1fr 3rem;
+    grid-template-columns: 1fr;
+    height: 100vh;
+}
+
+header{
+    grid-area: header;
+    background-color: #203040;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+a:hover{
+    color: #ff8000;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #203040;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
