@@ -1,5 +1,5 @@
 import './index.css'
-
+//feature1 added
 const App = () => {
   return (
     <div className="grid-container">
